@@ -8,5 +8,10 @@
   "author": "Sam McCreery",
   "homepage_url": "https://github.com/mccreery/hashlinks",
 
-  "default_locale": "en"
+  "default_locale": "en",
+
+  "icons": {
+    "48": "icon-48.png",
+    "96": "icon-96.png"
+  }
 }
