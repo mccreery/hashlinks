@@ -5,7 +5,7 @@
   "extensionDescription": {
     "message": "Copy direct links to headings from the context menu."
   },
-  "jumpToELement": {
+  "jumpToElement": {
     "message": "Jump to Element",
     "description": "The context menu item for navigating to the link to the selected element."
   },
