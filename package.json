@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "web-ext": "latest"
+  },
+  "scripts": {
+    "build": "web-ext build",
+    "start": "web-ext run"
+  },
+  "webExt": {
+    "sourceDir": "src/",
+    "build": {
+      "overwriteDest": true
+    }
+  }
+}
