@@ -5,12 +5,14 @@
   "extensionDescription": {
     "message": "Copy direct links to headings from the context menu."
   },
-  "jumpToElement": {
-    "message": "Jump to Element",
-    "description": "The context menu item for navigating to the link to the selected element."
-  },
   "copyLinkToElement": {
-    "message": "Copy Link to Element",
-    "description": "The context menu item for copying the link to the selected element."
+    "message": "Copy Link to $HASH$",
+    "description": "The context menu item for copying the link to the selected element.",
+    "placeholders": {
+      "hash": {
+        "content": "$1",
+        "example": "#Title_Heading"
+      }
+    }
   }
 }
