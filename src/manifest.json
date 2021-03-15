@@ -32,5 +32,10 @@
       "matches": [ "<all_urls>" ],
       "js": [ "content.js" ]
     }
-  ]
+  ],
+
+  "options_ui": {
+    "page": "options/index.html",
+    "browser_style": true
+  }
 }

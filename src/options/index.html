@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <label for="maximum-distance">Maximum distance to selected element</label>
+    <input type="number" value="-1">
+    <p>
+      <strong>Whitelist and blacklist</strong> &mdash; define <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors">CSS selectors</a>
+      to whitelist or blacklist matching elements from triggering the context menu item.
+      <table>
+        <tr>
+          <td><code>h1, h2, h3, h4, h5, h6</code></td>
+          <td>headings</td>
+        </tr>
+        <tr>
+          <td><code>h1 *, h2 *, h3 *, h4 *, h5 *, h6 *</code></td>
+          <td>children of headings</td>
+        </tr>
+        <tr>
+          <td><code>section, img</code></td>
+          <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section">sections</a> and images</td>
+        </tr>
+        <tr>
+          <td><code>#main-image</code></td>
+          <td>the element with id <code>main-image</code></td>
+        </tr>
+        <tr>
+          <td><code>.image</code></td>
+          <td>any element with class <code>image</code></td>
+        </tr>
+      </table>
+    </p>
+    <label for="whitelist">Whitelist</label>
+    <textarea id="whitelist"></textarea>
+    <label for="blacklist">Blacklist</label>
+    <textarea id="blacklist"></textarea>
+  </body>
+</html>

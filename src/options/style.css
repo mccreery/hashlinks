@@ -1,0 +1,18 @@
+body {
+  overflow: hidden;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 5em;
+  max-height: 25em;
+}
+
+td {
+  text-align: left;
+  padding-right: 1.5em;
+}
+
+code {
+  user-select: all;
+}
